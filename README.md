@@ -16,6 +16,8 @@ To use:
 include <i2c1602.h>
 I2C16x2 lcd;
 ```
+compile your program with `-lwiringPi -li2c1602` flags.
+
 for more details see `example.c` and source + header file. 
 # Usage
 ## void lcd_init(int addr); 
