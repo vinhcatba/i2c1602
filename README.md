@@ -1,8 +1,7 @@
 # i2c1602
 A Raspberry Pi C library to write LCD 16x2 with I2C using WiringPi
 
-This library based mainly on [Lewis Loflin's code](https://www.bristolwatch.com/rpi/i2clcd.htm)
-It's use wiringPi I2C to interface with an I2C 16x2 LCD, which has a I2C converter module attached in the back.
+This library based mainly on [Lewis Loflin's code](https://www.bristolwatch.com/rpi/i2clcd.htm). It's use wiringPi I2C to interface with an I2C 16x2 LCD, which has a I2C converter module attached in the back.
 
 # To clone and install this library:
 ```
