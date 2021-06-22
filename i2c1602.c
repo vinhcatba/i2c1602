@@ -1,3 +1,8 @@
+/* 
+// Author: Le Thanh Vinh
+// Contact: thanhvinhkma@gmail.com
+*/
+
 #include "i2c16x2.h"
 
 // set up i2c device
