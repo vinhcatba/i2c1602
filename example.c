@@ -1,3 +1,7 @@
+/* 
+// Author: Le Thanh Vinh
+// Contact: thanhvinhkma@gmail.com
+*/
 #include <i2c1602.h>
 #include <stdio.h>
 #include <stdlib.h>
