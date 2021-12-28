@@ -11,15 +11,18 @@ $ cd i2c1602-main
 $ make
 $ sudo make install
 ```
-To use:
-```
+To use: include lib and declare I2C16x2 struct
+```C
 include <i2c1602.h>
 I2C16x2 lcd;
 ```
 compile your program with `-lwiringPi -li2c1602` flags.
+```
+$ gcc -lwiringPi -li2c1602 -o example example.c
+```
 
 for more details see `example.c` and source + header file. 
-# Usage
+# Usage and API
 ## void lcd_init(int addr); 
 initialize LCD at addr I2C address. Address can be found by typing `i2cdetect -y 1` to terminal.
 this function will set data length to 4-bit, 2 line, small font size, display ON, cursor OFF, cursor blink OFF, direction Left to Right and clear the display screen + RAM.
