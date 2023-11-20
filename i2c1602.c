@@ -3,7 +3,7 @@
 // Contact: thanhvinhkma@gmail.com
 */
 
-#include "i2c16x2.h"
+#include "i2c1602.h"
 
 // set up i2c device
 void lcd_setAddr(int addr) {
